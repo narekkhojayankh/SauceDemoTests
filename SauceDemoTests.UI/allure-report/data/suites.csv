@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2403","Login_WithWrongPassword_ShowsErrorMessage","","2026-09-13","passed","2026-09-13","","Login","LoginTests","Login_WithWrongPassword_ShowsErrorMessage"
+"","3727","CompleteCheckout_WithValidData_ShowsOrderConfirmation","","2026-09-13","passed","2026-09-13","","Checkout","CheckoutTests","CompleteCheckout_WithValidData_ShowsOrderConfirmation"
+"","3522","RemoveProductFromCart_ClearsCartBadge","","2026-09-13","passed","2026-09-13","","Cart","CartTests","RemoveProductFromCart_ClearsCartBadge"
+"","2894","Login_WithValidCredentials_RedirectsToInventoryPage","","2026-09-13","passed","2026-09-13","","Login","LoginTests","Login_WithValidCredentials_RedirectsToInventoryPage"
+"","2596","Login_WithLockedOutUser_ShowsLockedOutMessage","","2026-09-13","passed","2026-09-13","","Login","LoginTests","Login_WithLockedOutUser_ShowsLockedOutMessage"
+"","3902","AddProductToCart_UpdatesCartBadgeCount","","2026-09-13","passed","2026-09-13","","Cart","CartTests","AddProductToCart_UpdatesCartBadgeCount"
+"","4357","OpenCart_AfterAddingProduct_ShowsOneItem","","2026-09-13","passed","2026-09-13","","Cart","CartTests","OpenCart_AfterAddingProduct_ShowsOneItem"

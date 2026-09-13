@@ -7,17 +7,14 @@ namespace SauceDemoTests.UI.Pages
     {
         private readonly IWebDriver _driver;
 
-        // Step one: customer info
         private By FirstNameInput => By.Id("first-name");
         private By LastNameInput => By.Id("last-name");
         private By PostalCodeInput => By.Id("postal-code");
         private By ContinueButton => By.Id("continue");
 
-        // Step two: overview
         private By FinishButton => By.Id("finish");
         private By TotalLabel => By.CssSelector(".summary_total_label");
 
-        // Step three: confirmation
         private By CompleteHeader => By.CssSelector(".complete-header");
 
         public CheckoutPage(IWebDriver driver)

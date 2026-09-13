@@ -26,6 +26,7 @@
   </ItemGroup>
 	<ItemGroup>
   <None Include="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+  <None Include="allureConfig.json" CopyToOutputDirectory="PreserveNewest" />
 </ItemGroup>
 
 </Project>
