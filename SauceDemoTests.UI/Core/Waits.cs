@@ -26,5 +26,11 @@ namespace SauceDemoTests.UI.Core
                 return (element.Displayed && element.Enabled) ? element : null;
             })!;
         }
+
+        public static void UntilUrlContains(IWebDriver driver, string fragment, int timeoutSec = DefaultTimeoutSeconds)
+        {
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeoutSec));
+            wait.Until(d => d.Url.Contains(fragment));
+        }
     }
 }
