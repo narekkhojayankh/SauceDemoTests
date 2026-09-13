@@ -8,7 +8,7 @@ namespace SauceDemoTests.UI.Pages
         private readonly IWebDriver _driver;
 
         private By CartItems => By.CssSelector(".cart_item");
-
+        private By CheckoutButton => By.Id("checkout");
         public CartPage(IWebDriver driver)
         {
             _driver = driver;
@@ -25,6 +25,10 @@ namespace SauceDemoTests.UI.Pages
         public void RemoveItem(string productId)
         {
             Waits.UntilClickable(_driver, RemoveButton(productId)).Click();
+        }
+        public void ClickCheckout()
+        {
+            Waits.UntilClickable(_driver, CheckoutButton).Click();
         }
     }
 }
